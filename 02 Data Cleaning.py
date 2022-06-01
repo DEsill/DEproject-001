@@ -45,6 +45,3 @@ CASE WHEN user_id is NULL THEN '000000' ELSE user_id END AS user_id,
 book_id, country, price
 FROM data
 """)
-
-dt_pd = dt.toPandas()
-sns.boxplot(x = dt_pd['price'])
