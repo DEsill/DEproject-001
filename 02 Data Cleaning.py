@@ -20,12 +20,6 @@ ORDER BY country
 """)
 
 dt_clean = spark.sql("""
-SELECT * 
-FROM data
-WHERE country = 'Japane'
-""")
-
-dt_clean = spark.sql("""
 SELECT timestamp, user_id, book_id,
     CASE WHEN country = 'Japane' THEN 'Japan' ELSE country END AS country,
 price
