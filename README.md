@@ -3,7 +3,7 @@
 
 # Projects
 1. <ins>Data Collection</ins>
->- This project extract raw data from MySQL database using Python, Pandas and use requests library to get data from REST API.
+>- This project extract raw data from MySQL database using Python, SQL,Pandas and use requests library to get data from REST API.
 2. <ins>Data Cleansing</ins>
 >- This project clean data with PySpark, Spark SQL to make the best quality of data
 3. <ins>Data Lake</ins>
